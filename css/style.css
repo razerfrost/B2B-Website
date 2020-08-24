@@ -1,0 +1,264 @@
+/* CSS Style - Landing Page */
+
+	body {
+		padding: 0;
+		margin: 0;
+	}
+
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	p {
+		font-family: Tahoma, Helvetica, sans-serif;
+	}
+
+	header,
+	section,
+	footer {
+		padding: 5% 10%;
+		margin: 0 auto;
+	}
+
+	header {
+		background-image: url('../images/header-bg.png');
+		background-position: center 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #0fb090;
+		position: relative;
+		padding-bottom: 180px;
+	}
+
+	header video {
+		margin-left: 10%;
+	}
+
+	#logo-top {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	h1 {
+		color: #388e92;
+		font-size: 2.5em;
+		font-weight: 800;
+		margin-top: 18%;
+		width: 500px;
+	}
+
+	h2 {
+		color: #818285;
+		text-transform: capitalize;
+		font-weight: 400;
+	}
+
+	h3 {
+		font-size: 2.2em;
+		text-transform: capitalize;
+		font-weight: 400;
+		margin: 0 0 25px 0;
+	}
+
+	h4 {
+		color: #388e92;
+		margin-top: 0;
+		font-size: 1.5em;
+		font-weight: 500;
+	}
+
+	hr {
+		margin: 50px 0;
+	}
+
+	p,
+	input,
+	button {
+		font-size: 1.1em;
+		font-weight: 400;
+		line-height: 1.8;
+	}
+
+	form {
+		background-color: #ffffff;
+		border: 3px solid #388e92;
+		padding: 30px;
+		margin-top: -54%;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	}
+
+	form input,
+	form button,
+	.button {
+		display: inline-block;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	button:hover,
+	button:focus,
+	.button:hover,
+	.button:focus {
+		background-color: #28676a;
+	}
+
+	form input {
+		font-size: 1.2em;
+		font-weight: 300;
+		border-width: 0 0 1px 0;
+		border-color: #707070;
+		margin-bottom: 30px;
+		padding: 9px 0;
+	}
+
+	form button,
+	.button {
+		border-radius: 4px;
+		padding: 4px;
+		color: #ffffff;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-family: Tahoma, Helvetica, sans-serif;
+		font-size: 1.4em;
+
+	}
+
+	form button {
+		background-color: #0fb090;
+		border: 1px solid #0fb090;
+		margin-top: 30px;
+	}
+
+	.button {
+		background-color: #388e92;
+		border: 1px solid #388e92;
+		padding: 16px 100px;
+		text-decoration: none;
+		width: unset;
+		text-align: center;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+
+	}
+
+	section h3,
+	section p {
+		color: #ffffff;
+	}
+
+	section.light-grbg p,
+	footer p,
+	section.light-grbg h2 {
+		color: #4b4b4b;
+	}
+
+	.left-half {
+		width: 49%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.green-bg  .left-half {
+		width: 30%;
+
+	}
+
+	.green-bg .right-half {
+		width: 55%;
+		padding: 0 40px 0 100px;
+	}
+
+	.right-half {
+		width: 49%;
+		display: inline-block;
+	}
+
+	.green-bg {
+		background-color: #0fb090;
+		
+	}
+
+	.img-bg {
+		background-image: url('../images/funnel-teaser-bg-1.png');
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.img-bg .stamp {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.img-bg .left-half {
+		min-height: 548px;
+		padding-right: 140px;
+		width: 36%;
+	}
+
+	.img-bg .right-half {
+		width: 52%;
+		
+	}
+
+	.img-bg .right-half img {
+		max-width: 100%;
+	}
+
+	.img-bg p,
+	.img-bg h3 {
+		margin-bottom: 45px;
+	}
+
+	.light-grbg {
+		background-color: #bce3d9; 
+	}
+
+	.light-grbg img {
+		max-width: 200px;
+		margin-right: 54px;
+		vertical-align: middle;
+	}
+
+	.col-1 {
+		width: 35%;
+		display: inline-block;
+	}
+
+	.col-2,
+	.col-3,
+	.col-4	{
+		width: 20%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	footer .button {
+		float: right;
+		margin-top: 5%;
+	}
+
+	footer ul {
+		list-style: none;
+		padding-left: 0;
+		margin-top: 36px;
+	}
+
+	footer ul li {
+		margin-bottom: 42px;
+	}
+
+	footer ul a {
+		color: #4b4b4b;
+		text-decoration: none;
+		font-weight: 600;
+	}
+
+	footer ul a:hover,
+	footer ul a:focus {
+		text-decoration: underline;
+	}
+
